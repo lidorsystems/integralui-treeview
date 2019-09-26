@@ -93,13 +93,14 @@ Install the repository by running
 npm install https://github.com/lidorsystems/integralui-treeview.git
 ```
 
-Open your application module and add a reference to the IntegralUITreeViewModule
+Open your application module and add a reference to the IntegralUIBaseListModule and IntegralUITreeViewModule
 
 ```bash
+import { IntegralUIBaseListModule } from 'node_modules/integralui-treeview/bin/integralui/integralui.baselist.module';
 import { IntegralUITreeViewModule } from 'node_modules/integralui-treeview/bin/integralui/integralui.treeview.module';
 
 @NgModule({
-  imports:      [ IntegralUITreeViewModule ],
+  imports:      [ IntegralUIBaseListModule, IntegralUITreeViewModule ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
