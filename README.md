@@ -131,7 +131,7 @@ To include resources that are used by IntegralUI components in your project duri
 3. Add the following code under <b>assets</b> section in angular.json file:
 
 ```bash
-"src/integralui/resources"
+"src/assets/integralui/resources"
 ```
 Then you can access these resources by specifing its location in your project CSS files. For example:
 
