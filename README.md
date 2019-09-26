@@ -96,7 +96,7 @@ npm install https://github.com/lidorsystems/integralui-treeview.git
 Open your application module and add a reference to the IntegralUITreeViewModule
 
 ```bash
-import { IntegralUITreeViewModule } from 'integralui-treeview/bin/integralui/integralui.treeview.module';
+import { IntegralUITreeViewModule } from 'node_modules/integralui-treeview/bin/integralui/integralui.treeview.module';
 
 @NgModule({
   imports:      [ IntegralUITreeViewModule ],
@@ -133,6 +133,7 @@ To include resources that are used by IntegralUI components in your project duri
 ```bash
 "src/integralui/resources"
 ```
+Then you can access these resources by specifing its location in your project CSS files. For example: background-image: url(src/assets/integralui/resources/computer.png).
 
 <b>Note</b>   This is required because Angular compiler cannot detect resources that are outside the /src section of your app. It is needed if you are using resources that are part of IntegralUI Web, in your application.
 
