@@ -105,6 +105,7 @@ import { IntegralUITreeViewModule } from 'integralui-treeview/bin/integralui/int
 })
 export class AppModule { }
 ```
+<b>Note</b>   Common components like Button, Calendar, CheckBox etc. are included in IntegralUICommonModule. In order to use them, you also need to import the module from '~ ... integralui/integralui.common.module.ts' file. Depending on the component, the standard FormsModule from Angular framework may also be required to import.</p> 
 
 <b>Note</b>   In order to use a specific component or directive in your application, follow the [guidelines from corresponding article](https://www.lidorsystems.com/support/help/web/angular/guide/articles.aspx). You can find a separate article available for each component or directive.
 
