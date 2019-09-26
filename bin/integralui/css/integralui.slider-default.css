@@ -1,0 +1,56 @@
+.iui-slider
+{
+    color: black;
+	cursor: default;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+.iui-slider-content
+{
+	background: #cecece;
+	height: 1px;
+}
+.iui-slider-content-vertical
+{
+	background: #cecece;
+	width: 1px;
+}
+.iui-slider-background
+{
+	background: #afafaf;
+	height: 1px;
+}
+.iui-slider-background-vertical
+{
+	background: #afafaf;
+	width: 1px;
+}
+.iui-slider-button
+{
+	background: #e5e5e5;
+	border: 2px solid #afafaf;
+	border-radius: 3px;
+
+	pointer-events: none;
+}
+
+
+/* Disabled State */
+.iui-slider-disabled div
+{
+	pointer-events: none;
+}
+
+.iui-slider-disabled .iui-slider-content
+{
+	background: #dedede;
+}
+
+.iui-slider-disabled .iui-slider-value
+{
+	background: #f5f5f5;
+	border-color: #e5e5e5;
+}
+

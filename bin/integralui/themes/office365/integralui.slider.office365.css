@@ -1,0 +1,13 @@
+.iui-slider-content.iui-slider-content, .iui-slider-content-vertical
+{
+	background: #d6e4ef;
+}
+.iui-slider-background, .iui-slider-background-vertical
+{
+	background: #a5c7fe;
+}
+.iui-slider-button
+{
+	background: #ebf2f7;
+	border: 2px solid #a5c7fe;
+}

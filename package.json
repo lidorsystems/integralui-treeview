@@ -1,0 +1,59 @@
+{
+  "name": "integralui-treeview",
+  "version": "19.3.0",
+  "description": "IntegralUI TreeView for Angular",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lidorsystems/integralui-treeview.git"
+  },
+  "keywords": [
+    "angular",
+    "angular8",
+    "integralui",
+    "components",
+    "ui"
+  ],
+  "author": "Lidor Systems",
+  "license": "SEE LICENSE in LICENSE.md",
+  "homepage": "https://github.com/lidorsystems/integralui-treeview",
+  "files": [
+    "*.js",
+    "*.md",
+    "*.pdf",
+    "*.ts",
+    "bin/*.*",
+    "bin/integralui/*.*",
+    "bin/integralui/components/*.*",
+    "bin/integralui/css/*.*",
+    "bin/integralui/directives/*.*",
+    "bin/integralui/resources/*.*",
+    "bin/integralui/resources/checkbox/*.*",
+    "bin/integralui/resources/expandbox/*.*",
+    "bin/integralui/resources/progressbar/*.*",
+    "bin/integralui/resources/radiobutton/*.*",
+    "bin/integralui/resources/rating/*.*",
+    "bin/integralui/services/*.*",
+    "bin/integralui/themes/*.*",
+    "bin/integralui/themes/blue/*.*",
+    "bin/integralui/themes/bootstrap/*.*",
+    "bin/integralui/themes/dark/*.*",
+    "bin/integralui/themes/green/*.*",
+    "bin/integralui/themes/office/*.*",
+    "bin/integralui/themes/office365/*.*",
+    "bin/integralui/themes/red/*.*",
+    "bin/integralui/themes/win10/*.*"
+  ],
+  "devDependencies": {
+    "@angular/animations": "~8.0.1",
+    "@angular/common": "~8.0.1",
+    "@angular/compiler": "~8.0.1",
+    "@angular/core": "~8.0.1",
+    "@angular/forms": "~8.0.1",
+    "@angular/platform-browser": "~8.0.1",
+    "@angular/platform-browser-dynamic": "~8.0.1",
+    "@angular/router": "~8.0.1"
+  }
+}
