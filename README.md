@@ -96,7 +96,7 @@ npm install https://github.com/lidorsystems/integralui-treeview.git
 Open your application module and add a reference to the IntegralUITreeViewModule
 
 ```bash
-import { IntegralUITreeViewModule } from 'integralui-web/bin/integralui/integralui.treeview.module';
+import { IntegralUITreeViewModule } from 'integralui-treeview/bin/integralui/integralui.treeview.module';
 
 @NgModule({
   imports:      [ IntegralUITreeViewModule ],
@@ -113,12 +113,12 @@ export class AppModule { }
 After installation, in angular.json under styles section add this code line:
 
 ```bash
-"node_modules/integralui-web/bin/integralui/css/integralui.treeview.module.css"
+"node_modules/integralui-treeview/bin/integralui/css/integralui.treeview.module.css"
 ```
 
 To apply a theme, also add code line for corresonding theme file. For example to use the Office theme, add this:
 ```bash
-"node_modules/integralui-web/bin/integralui/themes/integralui.themes.office.css"
+"node_modules/integralui-treeview/bin/integralui/themes/integralui.themes.office.css"
 ```
 
 <b>Note</b>   You can choose a theme from available themes located at '~ ... /integralui/themes' folder.
