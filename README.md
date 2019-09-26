@@ -133,7 +133,14 @@ To include resources that are used by IntegralUI components in your project duri
 ```bash
 "src/integralui/resources"
 ```
-Then you can access these resources by specifing its location in your project CSS files. For example: background-image: url(src/assets/integralui/resources/computer.png).
+Then you can access these resources by specifing its location in your project CSS files. For example:
+
+```bash
+.some-class
+{
+    background-image: url(src/assets/integralui/resources/computer.png).
+}
+```
 
 <b>Note</b>   This is required because Angular compiler cannot detect resources that are outside the /src section of your app. It is needed if you are using resources that are part of IntegralUI Web, in your application.
 
